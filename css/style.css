@@ -1,0 +1,118 @@
+body
+{
+    font-family:'Lexend Deca',sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container
+{
+    margin-top: 100px;
+    justify-content: center;
+    margin: 100px 100px;
+}
+
+h1
+{
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-align: justify;
+    padding: 15px 25px;
+}
+
+img
+{
+    padding: 12px 28px;   
+}
+
+p
+{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align:justify;
+    line-height: 1.6em;
+    padding: 5px 25px;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 150px;
+    height: 480px;
+    width: 1000px;
+}
+
+.col-1
+{
+    background-color: hsl(31, 77%, 52%);
+    margin: 0px 0px 0px 50px;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.col-2
+{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    
+}
+
+.col-3
+{
+    background-color: hsl(179, 100%, 13%);
+    margin: 0px 50px 0px 0px;
+    padding: 20px;
+    border-radius: 0px 10px 10px 0px;
+ }
+
+.button
+{
+  width: 10rem;
+  height: 3rem;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  line-height: 3rem;
+  margin-top: 3.5rem;
+  margin-bottom: 2.6rem;
+  margin-left: 1.5em;
+  cursor: pointer;
+}
+
+.learn-more-sedan
+{
+    text-decoration: none;
+    padding: 0px 0px 0px 40px;
+    color: hsl(31, 77%, 52%);
+}
+
+.learn-more-suv
+{
+    text-decoration: none;
+    padding: 0px 0px 0px 40px;
+    color: hsl(184, 100%, 22%);
+}
+
+.learn-more-lux
+{
+    text-decoration: none;
+    padding: 0px 0px 0px 40px;
+    color: hsl(179, 100%, 13%);
+}
+
+.learn-more a
+{
+    text-align: center;
+}
+
+.attribution 
+{
+     font-size: 11px; text-align: center; 
+}
+
+.attribution a 
+{
+    color: hsl(228, 45%, 44%); 
+}
